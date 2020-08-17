@@ -1,0 +1,3 @@
+[submodule "vter"]
+	path = elpa/vterm-20200713.1344/build/libvterm-prefix/src/libvterm
+	url = https://github.com/neovim/libvterm.git

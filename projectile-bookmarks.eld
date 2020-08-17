@@ -1,1 +1,1 @@
-nil
+("~/org/" "~/.emacs.d/" "~/ms/electron-quick-start/")
