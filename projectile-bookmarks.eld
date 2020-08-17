@@ -1,1 +1,1 @@
-("~/org/" "~/.emacs.d/" "~/ms/electron-quick-start/")
+("~/.emacs.d/" "~/org/" "~/ms/electron-quick-start/")
