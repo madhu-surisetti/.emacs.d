@@ -112,8 +112,14 @@
 (use-package vterm
   :ensure t)
 
-(use-package sly
+(use-package slime
   :ensure t)
 
 (use-package magit
+  :ensure t)
+
+(use-package key-chord 
+  :ensure t)
+
+(use-package vimish-fold
   :ensure t)
