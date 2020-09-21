@@ -15,18 +15,15 @@
 
 
 
-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (leuven)))
- '(initial-buffer-choice t)
  '(initial-major-mode (quote lisp-mode))
  '(package-selected-packages
    (quote
-    (auto-complete vimish-fold key-chord evil restart-emacs pdf-tools magit slime vterm yasnippet-snippets yasnippet avy diminish company speed-type which-key helm-projectile projectile helm use-package)))
+    (slime yasnippet-snippets which-key vterm vimish-fold use-package speed-type solarized-theme restart-emacs pdf-tools magit key-chord helm-projectile evil diminish company avy auto-complete)))
  '(scroll-bar-mode nil)
  '(size-indication-mode t)
  '(tool-bar-mode nil))

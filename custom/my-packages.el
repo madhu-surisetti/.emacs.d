@@ -123,3 +123,8 @@
 
 (use-package vimish-fold
   :ensure t)
+
+(use-package solarized-theme
+  :ensure t
+  :init
+  (load-theme 'solarized-dark t))

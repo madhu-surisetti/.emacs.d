@@ -58,6 +58,7 @@
 (define-key evil-motion-state-map (kbd "SPC q q") 'kill-emacs)
 ;; buffer-motion-related
 (define-key evil-motion-state-map (kbd "SPC b") 'helm-mini)
+(define-key evil-motion-state-map (kbd "SPC s") 'slime)
 (define-key evil-motion-state-map (kbd "SPC j") 'evil-switch-to-windows-last-buffer)
 (define-key evil-motion-state-map (kbd "SPC l") 'next-buffer)
 (define-key evil-motion-state-map (kbd "SPC k") 'other-window)
@@ -74,19 +75,18 @@
           (lambda ()
             (company-mode)
             (vimish-fold-mode 1)
-            (evil-local-set-key 'normal (kbd "s s") 'slime-compile-defun)
+            (evil-local-set-key 'normal (kbd "s j") 'slime-compile-defun)
             (evil-local-set-key 'normal (kbd "s e") 'slime-edit-definition)
-            (evil-local-set-key 'normal (kbd "s k") 'slime-close-all-parens-in-sexp)
+            (evil-local-set-key 'normal (kbd "s l") 'slime-close-all-parens-in-sexp)
             (evil-local-set-key 'normal (kbd "s f") 'vimish-fold)
             (evil-local-set-key 'normal (kbd "s d") 'vimish-fold-delete)
             (evil-local-set-key 'motion (kbd "w") 'evil-jump-item)
-            (evil-local-set-key 'normal (kbd "e") 'evil-end-of-line)))
-;; (define-key evil-motion-state-map (kbd "s j") 'slime-compile-defun))
+            (evil-local-set-key 'motion (kbd "e") 'evil-end-of-line)))
 
 
 
-;; org-mode
-(require 'org)
+;; ;; org-mode
+;; (require 'org)
 (define-key evil-motion-state-map (kbd "SPC h k") 'org-capture)
 (define-key evil-motion-state-map (kbd "SPC h l") 'org-store-link)
 (define-key evil-motion-state-map (kbd "SPC h a") 'org-agenda)
