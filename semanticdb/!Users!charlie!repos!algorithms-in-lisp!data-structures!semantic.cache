@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file-1ffa9cb364e4
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ffa9cb364e4"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ffa99e19ad8"
+      :major-mode lisp-mode
+      :tags nil
+      :file "tree.lisp"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(24433 40876 725423 291000)
+      :unmatched-syntax nil))
+  :file "!Users!charlie!repos!algorithms-in-lisp!data-structures!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

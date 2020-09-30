@@ -1,0 +1,90 @@
+;; Object semanticdb-project-database-file-1ffa99e0eb84
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ffa99e0eb84"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ffaa20a4c98"
+      :major-mode lisp-mode
+      :tags 
+        '( ("in-package" code nil nil [228 254])
+            ("progn" code nil nil [258 715])
+            ("in-package" code nil nil [871 894])
+            ("slime-output-stream" type
+               (:superclasses "fundamental-character-output-stream"
+                :members 
+                  ( ("output-fn" variable nil nil nil)
+                    ("buffer" variable (:default-value "(make-string 8000)") nil nil)
+                    ("fill-pointer" variable (:default-value "0") nil nil)
+                    ("column" variable (:default-value "0") nil nil)
+                    ("lock" variable (:default-value "(make-lock :name \"buffer write lock\")") nil nil)
+                    ("flush-thread" variable (:default-value "nil") nil nil)
+                    ("flush-scheduled" variable (:default-value "nil") nil nil))                  
+                :type "class")
+                nil [896 1392])
+            ("maybe-schedule-flush" function (:arguments ("stream")) nil [1394 1585])
+            ("with-slime-output-stream" function (:arguments ("stream" "body")) nil [1587 1761])
+            ("stream-line-column" function
+               (:parent "slime-output-stream"
+                :arguments ("stream"))
+                nil [3089 3193])
+            ("stream-finish-output" function
+               (:parent "slime-output-stream"
+                :arguments ("stream"))
+                nil [3195 3459])
+            ("and" code nil nil [3463 3483])
+            ("stream-force-output" function
+               (:parent "slime-output-stream"
+                :arguments ("stream"))
+                nil [3484 3954])
+            ("stream-force-output" function
+               (:parent "slime-output-stream"
+                :arguments ("stream"))
+                nil [3956 4050])
+            ("stream-fresh-line" function
+               (:parent "slime-output-stream"
+                :arguments ("stream"))
+                nil [4052 4212])
+            ("slime-input-stream" type
+               (:superclasses "fundamental-character-input-stream"
+                :members 
+                  ( ("input-fn" variable nil nil nil)
+                    ("buffer" variable nil nil nil)
+                    ("index" variable (:default-value "0") nil nil)
+                    ("lock" variable (:default-value "(make-lock :name \"buffer read lock\")") nil nil))                  
+                :type "class")
+                nil [4214 4416])
+            ("stream-read-char" function
+               (:parent "slime-input-stream"
+                :arguments ("s"))
+                nil [4418 4942])
+            ("stream-listen" function
+               (:parent "slime-input-stream"
+                :arguments ("s"))
+                nil [4944 5125])
+            ("stream-unread-char" function
+               (:parent "slime-input-stream"
+                :arguments ("s" "char"))
+                nil [5127 5535])
+            ("stream-clear-input" function
+               (:parent "slime-input-stream"
+                :arguments ("s"))
+                nil [5537 5741])
+            ("stream-line-column" function
+               (:parent "slime-input-stream"
+                :arguments ("s"))
+                nil [5743 5804])
+            ("stream-read-char-no-hang" function
+               (:parent "slime-input-stream"
+                :arguments ("s"))
+                nil [5806 6055])
+            ("defimplementation" code nil nil [6064 6414])
+            ("defimplementation" code nil nil [6416 6532])
+            ("defimplementation" code nil nil [6534 6645]))          
+      :file "gray.lisp"
+      :pointmax 6646
+      :fsize 6645
+      :lastmodtime '(24424 46853 932595 882000)
+      :unmatched-syntax '((symbol 3462 . 3463) (punctuation 3461 . 3462) (semantic-list 2126 . 3087) (semantic-list 1763 . 2124) (semantic-list 717 . 869) (symbol 257 . 258) (punctuation 256 . 257))))
+  :file "!Users!charlie!.quicklisp!dists!quicklisp!software!slime-v2.24!swank!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

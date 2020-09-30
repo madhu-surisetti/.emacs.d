@@ -1,5 +1,0 @@
-/home/madhu-surisetti/.emacs.d/elpa/vterm-20200824.1318/build/CMakeFiles/rebuild_cache.dir
-/home/madhu-surisetti/.emacs.d/elpa/vterm-20200824.1318/build/CMakeFiles/edit_cache.dir
-/home/madhu-surisetti/.emacs.d/elpa/vterm-20200824.1318/build/CMakeFiles/run.dir
-/home/madhu-surisetti/.emacs.d/elpa/vterm-20200824.1318/build/CMakeFiles/libvterm.dir
-/home/madhu-surisetti/.emacs.d/elpa/vterm-20200824.1318/build/CMakeFiles/vterm-module.dir

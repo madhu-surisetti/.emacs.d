@@ -1,1 +1,0 @@
-("~/ms/madhu-surisetti.github.io/" "~/.emacs.d/" "~/lisp/" "~/org/")

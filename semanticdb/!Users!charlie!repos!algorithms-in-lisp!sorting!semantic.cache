@@ -1,0 +1,60 @@
+;; Object semanticdb-project-database-file-1ffaa012c06c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ffaa012c06c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ffaa012c04c"
+      :major-mode lisp-mode
+      :tags nil
+      :file "sorting-abstractions.lisp"
+      :pointmax 1
+      :fsize 0
+      :lastmodtime '(24429 53075 45768 537000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ffa9cc1ac94"
+      :major-mode lisp-mode
+      :tags 
+        '( ("insert-correctly" function (:arguments ("n" "buf")) nil [134 340])
+            ("my-insertion-sort" function (:arguments ("unsorted-lst")) nil [343 502])
+            ("random-list-of" function (:arguments ("n")) nil [506 615])
+            ("test-lst" variable (:default-value (sort (random-list-of 3000) #'>)) nil [618 668])
+            ("setf" code nil nil [671 717])
+            ("test-insertion-sort" function nil nil [719 1178])
+            ("test-insertion-sort" code nil nil [1181 1202]))          
+      :file "insertion-sort.lisp"
+      :pointmax 1203
+      :fsize 1230
+      :lastmodtime '(24431 9204 183954 451000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ffa9cc1acb4"
+      :major-mode lisp-mode
+      :tags 
+        '( ("find-max" function (:arguments ("lst")) nil [1 72])
+            ("selection-sort" function (:arguments ("lst")) nil [75 245])
+            ("selection-sort" code nil nil [248 275]))          
+      :file "selection-sort.lisp"
+      :pointmax 276
+      :fsize 275
+      :lastmodtime '(24431 10665 694384 222000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ffa9cc1b498"
+      :major-mode lisp-mode
+      :tags 
+        '( ("left-child" function (:arguments ("index")) nil [1 82])
+            ("right-child" function (:arguments ("index")) nil [84 166])
+            ("left-child" code nil nil [169 183])
+            ("get-children" function (:arguments ("index" "heap")) nil [185 458])
+            ("enqueue" function (:arguments ("m-queue" "m-job")) nil [461 561])
+            ("dequeue" function (:arguments ("m-queue")) nil [564 718])
+            ("print-heap" function (:arguments ("heap")) nil [722 865])
+            ("iter-children" function (:arguments ("lst" "heap" "len")) nil [868 1488])
+            ("make-heap" function (:arguments ("lst")) nil [1493 1549])
+            ("build-max-heap" function (:arguments ("heap")) nil [1552 1616]))          
+      :file "heap-sort.lisp"
+      :pointmax 1617
+      :fsize 1616
+      :lastmodtime '(24435 17643 739091 955000)
+      :unmatched-syntax nil))
+  :file "!Users!charlie!repos!algorithms-in-lisp!sorting!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

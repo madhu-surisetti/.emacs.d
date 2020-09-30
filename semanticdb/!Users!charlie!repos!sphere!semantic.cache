@@ -1,0 +1,51 @@
+;; Object semanticdb-project-database-file-1ffa99fc514c
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ffa99fc514c"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ffaa0ebf334"
+      :major-mode lisp-mode
+      :tags 
+        '( ("palindromep" function (:arguments ("n")) nil [34 132])
+            ("next-palindrome" function (:arguments ("n")) nil [136 258])
+            ("spoj" function nil nil [260 494])
+            ("spoj" code nil nil [496 502]))          
+      :file "the-next-palindrome.lisp"
+      :pointmax 503
+      :fsize 502
+      :lastmodtime '(24435 17209 247484 841000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ffaa0e5b804"
+      :major-mode lisp-mode
+      :tags 
+        '( ("palindromep" function (:arguments ("n")) nil [26 124])
+            ("digits" function (:arguments ("n")) nil [126 230])
+            ("fmt" function (:arguments ("m-s" "body")) nil [234 334])
+            ("upto" function (:arguments ("max")) nil [336 477])
+            ("last1" function (:arguments ("lst")) nil [480 557])
+            ("singlep" function (:arguments ("lst")) nil [561 656])
+            ("append2" function (:arguments ("lst" "obj")) nil [660 748])
+            ("nconc2" function (:arguments ("lst" "obj")) nil [752 837])
+            ("divp" function (:arguments ("a" "b")) nil [841 916])
+            ("iar" function (:arguments ("n")) nil [919 1062])
+            ("idr" function (:arguments ("n")) nil [1066 1236])
+            ("sum-digits" function (:arguments ("n")) nil [1240 1344])
+            ("betweenp" function (:arguments ("lower" "n" "upper")) nil [1348 1557])
+            ("timing" function (:arguments ("forms")) nil [1565 2254])
+            ("int-to-list" function (:arguments ("int")) nil [2258 2554])
+            ("parse-ints" function (:arguments ("s")) nil [2560 2715])
+            ("lgen" function (:arguments ("lower" "upper" "qualifier")) nil [2719 3200])
+            ("primep" function (:arguments ("n")) nil [3204 3669])
+            ("group" function (:arguments ("lst" "sublength")) nil [3673 4240])
+            ("str->list" function (:arguments ("str")) nil [4244 4420])
+            ("str->spaced-chars" function (:arguments ("str")) nil [4423 4520])
+            ("permutations" function (:arguments ("lst")) nil [4524 4788])
+            ("vector->list" function (:arguments ("vec")) nil [4791 5001]))          
+      :file "utilities.lisp"
+      :pointmax 5002
+      :fsize 5001
+      :lastmodtime '(24435 16932 444760 925000)
+      :unmatched-syntax nil))
+  :file "!Users!charlie!repos!sphere!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

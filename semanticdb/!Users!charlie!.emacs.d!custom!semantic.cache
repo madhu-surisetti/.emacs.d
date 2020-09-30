@@ -1,0 +1,71 @@
+;; Object semanticdb-project-database-file-1ff87799b660
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file-1ff87799b660"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table-1ff877700630"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("open-dir" function (:arguments ("directory")) nil [166 309])
+            ("define-key" code nil nil [551 593])
+            ("define-key" code nil nil [594 654])
+            ("define-key" code nil nil [655 720])
+            ("define-key" code nil nil [721 783])
+            ("define-key" code nil nil [784 847])
+            ("define-key" code nil nil [873 932])
+            ("define-key" code nil nil [933 988])
+            ("define-key" code nil nil [989 1073])
+            ("define-key" code nil nil [1074 1143])
+            ("define-key" code nil nil [1144 1206])
+            ("define-key" code nil nil [1207 1262])
+            ("define-key" code nil nil [1263 1344])
+            ("define-key" code nil nil [1345 1422])
+            ("define-key" code nil nil [1423 1498])
+            ("define-key" code nil nil [1499 1570])
+            ("define-key" code nil nil [1587 1650])
+            ("define-key" code nil nil [1651 1718])
+            ("define-key" code nil nil [1719 1783]))          
+      :file "key-bindings.el"
+      :pointmax 1784
+      :fsize 1783
+      :lastmodtime '(24430 61957 14116 674000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ff8779acc58"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("setq" code nil nil [103 194])
+            ("fset" code nil nil [195 224])
+            ("global-auto-revert-mode" code nil nil [249 276])
+            ("setq-default" code nil nil [340 401])
+            ("setq" code nil nil [402 433])
+            ("toggle-frame-fullscreen" code nil nil [463 488])
+            ("global-hl-line-mode" code nil nil [519 543])
+            ("when" code nil nil [643 724])
+            ("use-package" code nil nil [764 1883])
+            ("add-hook" code nil nil [1919 2130]))          
+      :file "general.el"
+      :pointmax 2131
+      :fsize 2130
+      :lastmodtime '(24430 64895 613701 754000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table-1ff877be44d0"
+      :major-mode emacs-lisp-mode
+      :tags 
+        '( ("use-package" code nil nil [1 681])
+            ("use-package" code nil nil [688 782])
+            ("use-package" code nil nil [789 822])
+            ("use-package" code nil nil [828 866])
+            ("use-package" code nil nil [871 906])
+            ("use-package" code nil nil [911 946])
+            ("use-package" code nil nil [951 1003])
+            ("use-package" code nil nil [1009 1074])
+            ("use-package" code nil nil [1079 1115])
+            ("use-package" code nil nil [1119 1157]))          
+      :file "packages.el"
+      :pointmax 1158
+      :fsize 1157
+      :lastmodtime '(24430 64788 519573 465000)
+      :unmatched-syntax nil))
+  :file "!Users!charlie!.emacs.d!custom!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
