@@ -1,2 +1,4 @@
 ((magit-commit nil)
- (magit-push nil))
+ (magit-dispatch nil)
+ (magit-push nil)
+ (magit-status-jump nil))

@@ -39,6 +39,12 @@
 (define-key evil-motion-state-map (kbd "SPC o u") (open-dir "~/repos/books"))
 (define-key evil-motion-state-map (kbd "SPC o d") (open-dir "~/Downloads"))
 (define-key evil-motion-state-map (kbd "SPC o r") (open-dir "~/repos"))
+(define-key evil-motion-state-map (kbd "SPC o f") (open-dir "~/repos/fig"))
+(define-key evil-motion-state-map (kbd "SPC 0") 'delete-window)
+(define-key evil-motion-state-map (kbd "SPC 1") 'delete-other-windows)
+(define-key evil-motion-state-map (kbd "SPC 2") 'split-window-below)
+(define-key evil-motion-state-map (kbd "SPC 3") 'split-window-below)
+
 ;; file-related
 (define-key evil-motion-state-map (kbd "SPC f s") 'save-buffer)
 (define-key evil-motion-state-map (kbd "SPC f f") 'helm-find-files)

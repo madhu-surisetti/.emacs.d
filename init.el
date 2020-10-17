@@ -20,6 +20,7 @@
                                (load "~/.emacs.d/custom/general.el")
                                (load "~/.emacs.d/custom/key-bindings.el")))  ; Load your key-bindings file at the end - To prevent override
 
+(load-theme 'solarized-dark-high-contrast t)
 (setq python-shell-interpreter "/usr/local/bin/python3")
 (load (expand-file-name "~/.quicklisp/slime-helper.el"))
 (setq inferior-lisp-program "/usr/local/bin/sbcl") ;for slime
@@ -48,7 +49,7 @@
  '(inhibit-startup-echo-area-message "charlie")
  '(nov-text-width 100)
  '(package-selected-packages
-   '(nov eval-in-repl evil-lispy avy pdf-tools exec-path-from-shell evil magit slime diminish company which-key helm use-package restart-emacs))
+   '(projectile djvu solarized-theme nov eval-in-repl evil-lispy avy pdf-tools exec-path-from-shell evil magit slime diminish company which-key helm use-package restart-emacs))
  '(tool-bar-mode nil))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

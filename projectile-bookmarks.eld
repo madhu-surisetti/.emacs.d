@@ -1,0 +1,1 @@
+("~/.emacs.d/" "~/repos/fig/" "~/repos/taylor/")
