@@ -1,1 +1,1 @@
-("~/.emacs.d/" "~/repos/fig/" "~/repos/taylor/")
+("~/.emacs.d/" "~/repos/fig/" "~/repos/crafting-interpreters/" "~/repos/taylor/")
